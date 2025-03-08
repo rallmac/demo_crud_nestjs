@@ -1,6 +1,8 @@
-// filepath: /home/tobijah/Documents/mine2/src/cities/entities/city.entity.ts
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
+/**
+ * Represents a city entity with its basic properties.
+ */
 @Entity()
 export class City {
   @PrimaryGeneratedColumn()
